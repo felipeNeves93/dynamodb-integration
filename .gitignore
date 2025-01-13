@@ -42,6 +42,8 @@ target/
 *.launch
 *.jrebel.xml
 *.jrebel
+.gitattributes
+HELP.md
 
 # Ignore build directories
 /build/
