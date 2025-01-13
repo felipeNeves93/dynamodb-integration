@@ -1,0 +1,50 @@
+# Gradle files
+.gradle/
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.ipr
+*.iws
+*.class
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Maven files (if applicable)
+target/
+
+# Spring Boot specific files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# Other files
+*.h2.db
+*.db
+*.sqlite
+*.tmp
+*.swp
+*.swo
+
+# Ignore IDE specific files
+*.project
+*.pydevproject
+*.settings/
+*.classpath
+*.launch
+*.jrebel.xml
+*.jrebel
+
+# Ignore build directories
+/build/
+
+docker/docker
+docker/data
